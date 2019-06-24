@@ -106,19 +106,12 @@ source $ZSH/oh-my-zsh.sh
 alias refresh-shell="$SHELL"
 alias dc="docker-compose"
 alias dce="docker-compose exec"
-alias ssh-pi="ssh pi@192.168.1.144"
+alias ssh-pi="ssh pi@[ip goes here]"
 alias keygen="ssh-keygen -t rsa -b 4096 -C \"dserrano@atiba.com\""
 
 # Shpotify aliases
 alias spt="spotify"
 alias spt-stat="spt status"
-
-# LBMC Aliases
-alias lbmc="cd ~/workspace/lbmc"
-alias lbmc-git-push="git push ssh://git@git.mss.lbmc.net:2222/source/apiportal.git develop"
-
-# Beam Lunch Aliases
-alias beaml="cd ~/workspace/beam-lunch"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
